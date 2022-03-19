@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabela de classificação4</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <h1>Tabela de classificação</h1>
+  <div id="quantidadeJogadas"></div><br>
+
+  <div class="zerapontos">
+    <button onClick="zerarTabela()">Zerar Tabela</button>
+    <button onClick="reset()">Reset</button>
+  </div>
+  <div class="addnomes">
+    <input type="text" id="nomes" width="10px" placeholder="Digite o nome">
+    <button onclick="adicionaNomes()">Adicionar Nome</button>
+  </div>
+
+  <br><br>
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan="3">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores"></tbody>
+
+  </table>
+  <div id="resultado"></div>
+  <br><button id="encerrarPartida" onClick="encerrarPartida()">Encerrar a partida</button>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
