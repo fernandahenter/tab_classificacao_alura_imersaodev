@@ -140,9 +140,9 @@ function encerrarPartida() {
 
     if (qJogadas == 0) {
       alert("Inicie a partida!");
-    }
+    
 
-    if (vencedor.pontos == vencedor.pontos) {
+    //if (vencedor.pontos == vencedor.pontos) {
       ganhador.innerHTML = "A partida Empatou!";
     } else {
       ganhador.innerHTML =
@@ -155,4 +155,4 @@ function encerrarPartida() {
   }
 }
 
-function resutado(i) {}
+//function resutado(i) {}
